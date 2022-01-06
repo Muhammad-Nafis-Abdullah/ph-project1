@@ -30,7 +30,7 @@ p{
 
 
 /* ------------------------------------------- */
-/* style for first section */
+/* top section of the website */
 .mission-focus{
     display: flex;
     flex-flow: row wrap;
@@ -70,7 +70,7 @@ p{
 
 
 /* ------------------------------------------- */
-/* style for second section */
+/* My mission area & it's three card section */
 .mission-card-area{
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -117,7 +117,8 @@ p{
 
 
 /* ------------------------------------------- */
-/* style for third section */
+/* Develop without limits (1 image left + 1 div conatining text right) section */
+/* Know our Global community (1 div conatining text left + 1 image right) section */
 .image-documentation{
     display: flex;
     justify-content: space-between;
@@ -150,7 +151,7 @@ p{
 
 
 /* ------------------------------------------- */
-/* style for fourth section [creative section] */
+/* my creative idea section */
 .mern{
     margin: 5rem 0 3rem;
 }
@@ -207,7 +208,7 @@ p{
 
 
 /* ------------------------------------------- */
-/* style for footer */
+/* footer section */
 footer{
     height:15rem;
     background-color: rgb(7, 11, 19);
