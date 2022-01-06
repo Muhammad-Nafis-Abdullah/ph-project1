@@ -1,3 +1,4 @@
+/* universal style */
 *{
     margin: 0;
     padding: 0;
@@ -11,10 +12,10 @@
     padding: .7rem 2rem;
     border-radius: .3rem;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.03em;
     font-weight: bold;
-    background-color: lightseagreen;
+    background-color: rgb(11, 168, 147);
     display: inline-block;
     margin: 1.3rem 0 2rem;
     font-family: 'Exo', sans-serif;
@@ -29,6 +30,7 @@ p{
 
 
 /* ------------------------------------------- */
+/* style for first section */
 .mission-focus{
     display: flex;
     flex-flow: row wrap;
@@ -40,11 +42,18 @@ p{
 }
 .half-width h1{
     font-size: 3.5em;
-    border-left: 4px solid lightseagreen;
     padding-left: .8rem;
-    border-radius: .1rem 0 0 .1rem;
-    margin-bottom: 2rem;
     color: rgb(19, 19, 19);
+}
+.mission-title{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.bar{
+    align-self: stretch;
+    width: 6px ;
+    border-radius: 10rem;
+    background-color: rgb(11, 168, 147);
 }
 .half-width p{
     font-size: 1.1em;
@@ -57,7 +66,11 @@ p{
     margin-left: 2rem;
 }
 
+
+
+
 /* ------------------------------------------- */
+/* style for second section */
 .mission-card-area{
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -104,6 +117,7 @@ p{
 
 
 /* ------------------------------------------- */
+/* style for third section */
 .image-documentation{
     display: flex;
     justify-content: space-between;
@@ -134,7 +148,9 @@ p{
 }
 
 
+
 /* ------------------------------------------- */
+/* style for fourth section [creative section] */
 .mern{
     margin: 5rem 0 3rem;
 }
@@ -191,6 +207,7 @@ p{
 
 
 /* ------------------------------------------- */
+/* style for footer */
 footer{
     height:15rem;
     background-color: rgb(7, 11, 19);
