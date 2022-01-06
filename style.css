@@ -193,16 +193,16 @@ p{
     align-self: flex-end;
 }
 .mongodb{
-    background-color: rgba(0, 192, 0, 0.35);
+    background-color: rgba(0, 192, 0, 0.2);
 }
 .expressjs{
-    background-color: rgba(240, 128, 128, 0.60);
+    background-color: rgba(240, 128, 128, 0.30);
 }
 .reactjs{
-    background-color: rgb(85, 149, 170,0.50);
+    background-color: rgb(85, 149, 170,0.20);
 }
 .nodejs{
-    background-color: rgb(150, 248, 199);
+    background-color: rgba(150, 248, 199, 0.45);
 }
 
 
