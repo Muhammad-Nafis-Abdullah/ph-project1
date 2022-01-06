@@ -36,6 +36,10 @@ p{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items:flex-end;
+    background-image: url("images/shapes/shape-1.png");
+    background-position: -10rem -10rem;
+    background-repeat: no-repeat;
+    background-size: 20rem;
 }
 .half-width{
     flex: 0 0 45%;
@@ -64,6 +68,10 @@ p{
     display: block;
     width: 80%;
     margin-left: 2rem;
+    background-image: url("images/shapes/shape-8.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 20rem;
 }
 
 
@@ -74,6 +82,10 @@ p{
 .mission-card-area{
     padding-top: 4rem;
     padding-bottom: 2rem;
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: 130% -5%;
+    background-size: 26rem;
 }
 .mission-card-area h2{
     font-size: 2.7em;
@@ -131,7 +143,18 @@ p{
 .flex-text{
     flex: 0 0 58%;
 }
-
+.bg-left{
+    background-image: url("images/shapes/shape-6.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 20rem;
+}
+.bg-right{
+    background-image: url("images/shapes/shape-6.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 20rem;
+}
 .image-documentation>div>img{
     width: 100%;
 }
@@ -154,6 +177,10 @@ p{
 /* my creative idea section */
 .mern{
     margin: 5rem 0 3rem;
+    background-image: url("images/shapes/shape-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -40vw 50%;
 }
 .mern>h2{
     text-align: center;
